@@ -1,0 +1,106 @@
+@font-face {
+    font-family:OpenSans-Italic ;
+    src: url(./font/open-sans/OpenSans-Italic.ttf);
+}
+body{
+    background-color: black;
+    margin:40px;
+}
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 655px;
+    position: relative;
+    z-index: 0;
+    
+    /* display: inline-block; */
+}
+.contain1{
+    background-color: rgb(47,53,40);
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.contain2{
+    background-color: rgb(217,217,217);
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.wrapper2{
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    width: 60%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    height: 440px;
+}
+p{
+    color:rgb(140, 135, 135);
+    font-family: OpenSans-Italic;
+    font-size: smaller;
+}
+.box-1{
+    float: left;
+    width: 251px;
+    height: 220px;
+    padding: -1px;
+    padding-left: 20px;
+}
+.icons-bg{
+    color: #303329;
+    background-color: rgb(217,217,217);
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 30px;
+    width: 30px;
+}
+.bi::before{
+    margin-top: 25px;
+}
+.photo1{
+    background-image: url("./image/2.png");
+    width: 269px;
+    height: 220px;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-2{
+    float: left;
+    width: 251px;
+    height: 220px;
+    padding: -1px;
+    padding-left: 17px;
+}
+.photo2{
+    background-image: url(./image/1.png);
+    width: 272px;
+    height: 220px;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-3{
+    float: left;
+    width: 233px;
+    height: 220px;
+    padding: -1px;
+    padding-left: 17px;
+    padding-right: 18px ;
+}
+.photo3{
+    background-image: url(./image/3.png);
+    width: 269px;
+    height: 220px;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
