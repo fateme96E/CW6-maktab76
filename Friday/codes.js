@@ -17,7 +17,7 @@ convertFunc({a:1, b:2});
 
 //2
 function detectWord(str){
-    //we can use line 23 instead of line 24
+    //we can use line 21 instead of line 22
     // str = str.split("");
     str = [...str];
     let res = [];
