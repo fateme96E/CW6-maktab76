@@ -2,8 +2,6 @@
 //first sol:
 function convertFunc(obj){
     let arr=[];
-    // arr = Object.entries(obj);
-
     arr = Object.keys(obj).map(key => [key, obj[key]]);
     console.log(arr);
 }
